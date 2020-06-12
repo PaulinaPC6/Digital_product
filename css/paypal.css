@@ -1,0 +1,26 @@
+body {
+    background-color:gray;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img{
+    display: flex;
+ }
+
+.brand {
+    padding: 90px;
+    margin-top: -70px;
+}
+
+.text {
+    margin-top: -50px;
+}
+.content_paypal a{
+    color: #7ACC2D;
+
+}

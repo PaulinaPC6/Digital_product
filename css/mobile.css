@@ -1,0 +1,27 @@
+@media (max-width: 1000px) {
+
+    .products {
+        display: inherit;
+        height: auto;
+
+    }
+
+    .product{
+        margin-top: auto;
+    }
+    .main-section{
+        padding: 5%;
+    }
+
+    .mesa_trabajo  {
+        display: inherit;
+    }
+
+    .mesa_mencion {
+        display: inherit;
+    }
+
+
+
+
+}

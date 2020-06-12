@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+/* -------------------   variables */
+
+/* box shadow */
+:root{
+    --box: 0px 0 5px black;
+}
+
+html, body {
+    padding: 0%;
+    margin: 0%;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;;
+
+}
+
+nav {
+    display: flex;
+    background-color: #7ACC2D;
+    padding: 15px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li {
+    padding-left: 20px;
+    list-style: none ;
+    font-size: 15px;
+}
+
+nav li a {
+    color:black;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color:white;
+}
+
+/* --------- MAIN SECTION -------------------- */
+
+.main_section {
+    text-align: center;
+    padding: 15%;
+    margin-top: -150px;
+    
+    
+}
+
+.products{
+    background-image: url("../images/gris.png");
+    max-height:230px;
+    min-width: -10px;
+    background-size: cover;
+    background-position: unset;
+    padding: 50px;
+    display: flex;
+    padding-left:70px;
+    
+}
+
+.product {
+    padding:180px;
+    margin-top: -400px;
+     
+}
+
+.product .content{
+background-color: white;
+padding:5px;
+background-position: center;
+box-shadow:  2px 0 10px black;
+text-align: center;
+}
+
+.img_content {
+    text-align: center;
+}
+
+.main_button {
+    background-color: #7ACC2D;
+    width: 100%;
+    padding:10px;
+    font-size:20px;
+    color: white;
+    border:0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main_button:hover{
+    background-color:  #5e9e22;
+}
+
+
+/* --------------------MESA_TRABAJO--------------------- */
+
+.mesa_trabajo{
+    padding: 100px;
+    display: flex;
+}
+
+.img_content {
+    text-align: center;
+}
+
+.mesa{
+    padding: 150px;
+    text-align: center;
+}
+
+/* .mesa_trabajo {
+    padding: 200px;
+    margin-top: 30px;
+    display: flex;   
+} */
+
+/* .img_cont {
+    text-align: center;
+}
+
+.mesa{
+    display: flex;
+}
+
+.mesa .cont2{
+    margin: 102px 0;
+}
+
+ .mesa_contain {
+    background-color:white;
+    padding:2px;
+    background-position: center;
+    width: 100%;
+    padding: 8px 10px;
+    text-align: center;
+    margin: 2px 0;
+    box-sizing: border-box;
+}  */
+
+/* ---------------------------MENCIONES----------------------------- */
+
+.main_menciones {
+    text-align: center;
+    font-size: 22px;
+    
+}
+.mencion {
+    padding: 60px;
+    text-align: center;
+}
+
+.mesa_mencion {
+    display: flex;
+   
+    padding-left: 50px;
+}
+.men_content{
+    text-align: center;
+}
+
+.just{
+    text-align: justify; 
+    margin-top: 0px;
+    width: 320px;
+    padding: -10px;
+}
+
+
+/* ------------ vent<------------ */
+.modulo_pago{
+    background-color: white;
+    box-shadow: 2px 0 10px black;
+    padding:10px;
+    font-size: 15px;
+    text-align: justify;
+    
+}
+
+.modulo_pago_images {
+    max-width: 100px ;
+    text-align: center;
+    height: 295px;
+}
+
+
+label {
+    font-size: 20px;
+    width: 100%;
+}
+
+.data{
+    margin-top: 10px;
+    width: 97%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+
+}
+.modulo_pago .main_btn{
+    width: 98%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: #7ACC2D;
+}
+
+
+/* ------------------------footer ------------- */
+.footer {
+    background-color: black;
+    display: flex;
+    
+    height:80px;
+    align-items: center;
+}
+
+
+.terminos a {
+    color:rgb(221, 213, 213);
+    font-size: 15px;
+    padding:30px;
+   
+}
+
+.terminos a:hover{
+    color: pink;
+    
+    
+}
+
+.contacto a {
+    padding-left: 1500px;
+    font-size: 15px;
+    color: #7ACC2D;
+    
+}
